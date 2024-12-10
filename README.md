@@ -39,3 +39,16 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/kyrahul2107/Blog-Application
    cd BlogSphere
+
+2. **For the backend**:  
+  ```bash
+  npm install
+
+3. **Setup env File**:  
+  ```PORT=5000
+MONGO_URI=<your-mongodb-uri>
+JWT_SECRET=<your-jwt-secret>
+
+
+4. **Run The Server**:  
+npm run server
